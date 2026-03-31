@@ -1,0 +1,6 @@
+# Python 3.12
+python-dotenv>=1.0.0
+pyTelegramBotAPI>=4.14.0
+openai>=1.40.0
+gspread>=6.0.0
+google-auth>=2.29.0
