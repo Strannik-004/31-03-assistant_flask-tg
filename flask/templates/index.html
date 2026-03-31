@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Лендинг с чат-виджетом</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">TechCare</div>
+        <nav class="nav-links">
+          <a href="#services">Услуги</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Продажа бытовой и оргтехники</p>
+            <h1>Подберем технику для дома и офиса под ваш бюджет</h1>
+            <p class="lead">
+              Помогаем выбрать и купить надежную бытовую технику и оргтехнику:
+              от холодильников и стиральных машин до принтеров, МФУ и мониторов.
+            </p>
+            <div class="hero-actions">
+              <a href="#contacts" class="btn btn-primary">Оставить заявку</a>
+              <a href="#services" class="btn btn-ghost">Смотреть каталог</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>Почему удобно покупать у нас</h3>
+            <ul>
+              <li>Помощь в подборе под задачи и бюджет</li>
+              <li>Только официальные поставки и гарантия</li>
+              <li>Доставка и базовая настройка техники</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Что продаем</h2>
+          <div class="cards">
+            <article class="card"><h3>Холодильники</h3><p>Однокамерные, двухкамерные, side-by-side модели.</p></article>
+            <article class="card"><h3>Стиральные машины</h3><p>Фронтальные и вертикальные, компактные решения.</p></article>
+            <article class="card"><h3>Посудомоечные машины</h3><p>Встраиваемые и отдельностоящие модели для кухни.</p></article>
+            <article class="card"><h3>Принтеры и МФУ</h3><p>Лазерные и струйные устройства для дома и офиса.</p></article>
+            <article class="card"><h3>Мониторы</h3><p>Офисные, дизайнерские и игровые решения.</p></article>
+            <article class="card"><h3>Ноутбуки и ПК</h3><p>Готовые конфигурации под работу, учебу и бизнес.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="advantages" class="section alt">
+        <div class="container">
+          <h2>Почему выбирают нас</h2>
+          <div class="features">
+            <div class="feature"><span>01</span><p>Подбираем технику под реальные задачи, а не по шаблону.</p></div>
+            <div class="feature"><span>02</span><p>Честные цены без скрытых доплат и навязанных опций.</p></div>
+            <div class="feature"><span>03</span><p>Официальная гарантия и документы на каждую покупку.</p></div>
+            <div class="feature"><span>04</span><p>Быстрая доставка и помощь с первым подключением.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Как проходит покупка</h2>
+          <ol class="steps">
+            <li>Вы оставляете заявку на сайте или в чате.</li>
+            <li>Уточняем бюджет, задачи и предпочтения по бренду.</li>
+            <li>Предлагаем 2-3 подходящих варианта с ценами.</li>
+            <li>Оформляем заказ, доставку и гарантийные документы.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <h2>Отзывы клиентов</h2>
+          <div class="reviews">
+            <blockquote>"Помогли выбрать холодильник под размеры кухни, доставили вовремя."</blockquote>
+            <blockquote>"Быстро подобрали МФУ для офиса, все документы оформили в день заказа."</blockquote>
+            <blockquote>"Понравилась консультация: без давления, только полезные варианты."</blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <h2>Частые вопросы</h2>
+          <div class="faq">
+            <details><summary>Есть ли гарантия на технику?</summary><p>Да, предоставляем официальную гарантию производителя и документы о покупке.</p></details>
+            <details><summary>Можно ли оплатить по безналу?</summary><p>Да, доступна оплата для физических и юридических лиц.</p></details>
+            <details><summary>Поможете выбрать модель, если не разбираюсь?</summary><p>Да, подберем варианты под ваш бюджет и задачи простым понятным языком.</p></details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>TechCare</h3>
+          <p>Продажа бытовой и оргтехники</p>
+        </div>
+        <div>
+          <p>Телефон: +7 (900) 123-45-67</p>
+          <p>Email: support@techcare.ru</p>
+          <p>Ежедневно: 09:00 - 21:00</p>
+        </div>
+      </div>
+    </footer>
+
+    <section class="chat-widget" aria-label="Чат с ассистентом">
+      <header class="chat-header">
+        <div class="chat-title">Ассистент</div>
+        <div class="chat-subtitle">Сбор заявки</div>
+      </header>
+
+      <div id="chat-messages" class="chat-messages" aria-live="polite"></div>
+
+      <div id="typing-indicator" class="typing-indicator hidden">
+        Ассистент печатает<span>.</span><span>.</span><span>.</span>
+      </div>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="chat-input"
+          class="chat-input"
+          type="text"
+          placeholder="Введите сообщение..."
+          autocomplete="off"
+          required
+        />
+        <button class="chat-send" type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+  </body>
+</html>
